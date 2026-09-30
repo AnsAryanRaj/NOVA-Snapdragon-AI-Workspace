@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+backend/venv/
+*.db
+*.sqlite3
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# IDEs & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Models & Weights (keep README)
+models/*
+!models/README.md
+
+# Logs & Temporary Files
+*.log
+.pytest_cache/
+.env
+credentials/
+scratch/
+
+test_workspace/
